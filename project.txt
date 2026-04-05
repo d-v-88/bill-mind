@@ -1,0 +1,6 @@
+Made a folder for the project. 
+Imported all the required files. started the expo on mobile. 
+Cleared all the UI to build the entire application from scratch.
+Within the app folder added an onboarding screen routed it through expo router.
+Added the sing in/up screen and routed it through route group which uses folder name in parenthesis.
+So when we navigate to different screens we can see an header.... stack navigator. so to remove it i use screenOptions={{ headerShown: false }} inside _layout.tsx. When i use it, it removes the header of the current stack or that of a group. so if i want to remove the root header i need to make changes to the root _layout.tsx file.
